@@ -32,6 +32,8 @@ FIELDNAMES = [
     "bmd_total", "bmd_total_t_score", "bmd_total_z_score",
     # VAT
     "vat_fat_mass", "vat_fat_volume",
+    # Page 4
+    "resting_metabolic_rate", "bmi",
 ]
 
 _NULL_SENTINELS = frozenset({"n/a", "na", "", "-", "null", "none", "not available"})

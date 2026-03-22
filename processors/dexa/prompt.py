@@ -53,11 +53,17 @@ Rules:
     "Pelvis" -> bmd_pelvis
     "Total" -> bmd_total_*
 
-  -From only the final row of the "Visceral Adipose Tissue" table on page 3:
+  - From only the final row of the "Visceral Adipose Tissue" table on page 3:
     "Fat Mass" -> vat_fat_mass
     "Volume" -> vat_fat_volume
 
+  - From page 4:
+    Resting Metabolic Rate (kcal/day) -> resting_metabolic_rate
+    Body Mass Index (kg/m²) -> bmi
+
 - Return mass and weight values in pounds, length in inches, volume in cubic inches.
+- resting_metabolic_rate is in calories (kcal) per day as a plain integer.
+- bmi is in kg/m² as a float.
 
 Required fields (return all of these):
 {fields_list}
